@@ -5,7 +5,7 @@ This repository contains the code and metadata supporting the study
 *"Primary and higher-order thalamic nuclei make distinct contributions to cortical reorganization in congenital sensory loss"*, posted in bioArxiv.
 
 ## Dataset (`/Dataset`)
-The datasets are too large to be stored on GitHub. They are available on Zenodo: **[https://zenodo.org/uploads/16877128]**.
+The datasets are too large to be stored on GitHub. They are available on Zenodo DOI: **[10.5281/zenodo.21456505]**.
 
 | Folder     | Description                         |
 |------------|------------------------------|

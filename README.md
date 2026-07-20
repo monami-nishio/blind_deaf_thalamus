@@ -17,12 +17,12 @@ The datasets are too large to be stored on GitHub. They are available on Zenodo:
 ## How to Run (`/Script`)
 | File     | Description                          |
 |------------|------------------------------|
-| `calculate_deformation_wholebrain`    | Calculate Jacobian deformation from individual T1w to Template space                  | 
-| `run_preprocessing_pipeline`   | Run fmriprep for preprocessing             | 
-| `wang_schaefer_overlap`   | Extract the Schaefer400 parcels which overlap with Wang (or Julich) atlas               | 
-| `summarize_freesurfer`   | Extract structural features from Freesurfer outputs          | 
-| `create_npy_for_fingerprint`   | Creat npy for which is used for funcitonal finerprint analysis         | 
-| `fingerprint_FC`    | Calculate the funcitonal finerprint                 | 
+| `calculate_deformation_wholebrain`    | Calculate Jacobian deformation maps by registering each individual's T1-weighted image to the template space.                 | 
+| `run_preprocessing_pipeline`   | Run the fMRIPrep preprocessing pipeline.           | 
+| `wang_schaefer_overlap`   | Extract Schaefer400 parcels that overlap with the Wang or Julich atlas.               | 
+| `summarize_freesurfer`   | Extract structural features from FreeSurfer outputs.       | 
+| `create_npy_for_fingerprint`   | Create NumPy (.npy) files for functional fingerprint analysis.        | 
+| `fingerprint_FC`    | Calculate functional connectivity fingerprints.               | 
 
 ## How to Run (`/Code`)
 To reproduce the figures:
@@ -32,6 +32,6 @@ To reproduce the figures:
 - **Figure 3** – `Fig3,6_thalamus_fingerprint_yeothalamus`, `Fig3,6_thalamus_fingerprint_nuclei`, `Fig3,6_cortex_fingerprint`  
 - **Figure 4** – `Fig4_cortex_fingerprint_hierarchy`
 - **Figure 5** – `Fig5_thalamus_cortex_fingerprint_task`
-- **Figure 6** – `Fig1,6_thalamus_structural`, `Fig1,6_cortex_structural`,`Fig3,6_thalamus_fingerprint_yeothalamus`, `Fig3,6_thalamus_fingerprint_nuclei`, `Fig3,6_cortex_fingerprint`  
+- **Figure 6** – `Fig1,6_thalamus_structural`, `Fig1,6_cortex_structural`,`Fig3,6_thalamus_fingerprint_yeothalamus`,`Fig3,6_thalamus_fingerprint_nuclei`, `Fig3,6_cortex_fingerprint`  
 
 All necessary data for running these scripts are stored in `/Dataset` or in `/Derivatives`.
